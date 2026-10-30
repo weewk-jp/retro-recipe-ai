@@ -35,7 +35,7 @@ st.markdown("""
         box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
     }
     .stApp {
-        background-image: url("Baby Pink Landscape.png");
+        background-image: url("Baby Pink Landscape Wallpaper.jpg");
         background-size: cover;
     }    
 </style>
@@ -44,11 +44,7 @@ st.markdown("""
 
 st.markdown("<div class='header-title'>moon lover</div>", unsafe_allow_html=True)
 st.markdown("<div class='header-sub'>Cooking Space</div>", unsafe_allow_html=True)
-<style>
-    .stApp {
-        background-image: url("647181408974678387.png")
-        background-size=True
-</style>
+st.image("647181408974678387.jpg", use_container_width=True)
 st.divider()
 
 
