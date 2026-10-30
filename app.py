@@ -44,7 +44,11 @@ st.markdown("""
 
 st.markdown("<div class='header-title'>moon lover</div>", unsafe_allow_html=True)
 st.markdown("<div class='header-sub'>Cooking Space</div>", unsafe_allow_html=True)
-
+<style>
+    .stApp {
+        background-image: url("647181408974678387.png")
+        background-size=True
+</style>
 st.divider()
 
 
@@ -68,7 +72,7 @@ with col_left:
     
     st.markdown("### 🎵 Spotify Playlist")
     spotify_embed_code = """
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/playlist/3NNtHxTXveJra4wPfYtIE1?si=MJGrff22QwKBOgs9b4GdCA" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     """
     st.components.v1.html(spotify_embed_code, height=160)
    
@@ -180,4 +184,4 @@ with col_right:
 
 
     st.divider()
-    st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjEx.../giphy.gif", caption="Good Luck! ✨", use_container_width=True)
+    st.image("bunny love.png", caption="Good Luck! ✨", use_container_width=True)
