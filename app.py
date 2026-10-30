@@ -71,7 +71,6 @@ with col_left:
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     """
     st.components.v1.html(spotify_embed_code, height=160)
-    """
    
     st.markdown("---")
     st.markdown("### day left")
@@ -156,10 +155,10 @@ with col_center:
 # ПРАВАЯ КОЛОНКА: Профиль, Факты, Эстетика
 # ==========================================
 with col_right:
-    st.markdown("#### updates")
+    st.markdown("#### daily reminder")
     st.image("title.jpg", use_container_width=True)
-    st.write("**Name:** Nyna ✨")
-    st.write("**Role:** Developer & AI Enthusiast")
+    st.write("there's so much more to live than waiting to be chosen.")
+    st.write("create more than you consume. people think about how they can receive love, but we should be thinking about how we can give love. - juhoon cortis")
     
     st.divider()
 
@@ -177,7 +176,7 @@ with col_right:
         </table>
     </div>
    """
-   st.components.v1.html(calendar_html, height=210)
+    st.components.v1.html(calendar_html, height=210)
 
 
     st.divider()
